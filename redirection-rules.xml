@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2000-2022 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license. -->
+
+<!DOCTYPE rules SYSTEM "https://helpserver.labs.jb.gg/help/schemas/mvp/redirection-rules.dtd">
+<rules>
+  <rule id="1054924b">
+    <description>Created after removal of "Tutorial" from IntelliJ Platform Plugin SDK</description>
+    <accepts>Tutorial.html</accepts>
+  </rule>
+</rules>

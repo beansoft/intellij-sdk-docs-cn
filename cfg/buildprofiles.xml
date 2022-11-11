@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildprofiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/build-profiles.xsd">
+
+    <variables>
+        <web-root>https://plugins.jetbrains.com/docs</web-root>
+        <product-web-url>https://plugins.jetbrains.com/docs/intellij/</product-web-url>
+        <search-scope/>
+        <fallback-url/>
+        <download-page>https://jb.gg/ipe</download-page>
+        <config-download-title>IntelliJ Platform Explorer</config-download-title>
+        <config-showDownloadButton>true</config-showDownloadButton>
+        <generate-sitemap-url-prefix>https://plugins.jetbrains.com/docs/intellij/</generate-sitemap-url-prefix>
+        <config-feedbackRequireEmail>false</config-feedbackRequireEmail>
+        <config-feedback-url>https://forms-service.jetbrains.com/feedback</config-feedback-url>
+        <config-feedback-widget>true</config-feedback-widget>
+        <config-webmaster>https://plugins.jetbrains.com/docs/intellij/getting-help.html</config-webmaster>
+        <config-feedback-support>https://www.jetbrains.com/support/</config-feedback-support>
+        <config-sideblocks>true</config-sideblocks>
+        <config-search-scopes-provider>https://data.services.jetbrains.com/search/</config-search-scopes-provider>
+        <og-twitter>@JBPlatform</og-twitter>
+        <og-image>https://resources.jetbrains.com/storage/products/jetbrains/img/meta/preview.png</og-image>
+        <enable-browser-edits>true</enable-browser-edits>
+        <browser-edits-url>https://github.com/JetBrains/intellij-sdk-docs/edit/main/</browser-edits-url>
+        <images-prefix-override>images/</images-prefix-override>
+        <noindex-content-in-deprecated>false</noindex-content-in-deprecated>
+        <noindex-content-in-eap>false</noindex-content-in-eap>
+        <noindex-content-in-release>false</noindex-content-in-release>
+    </variables>
+
+    <build-profile product="ijs"/>
+
+    <footer>
+        <social type="twitter" href="https://twitter.com/JBPlatform/"/>
+        <social type="blog" href="https://blog.jetbrains.com/platform/"/>
+        <social type="youtube" href="https://www.youtube.com/playlist?list=PLQ176FUIyIUZRWGCFY7G9V5zaM00THymY"/>
+
+        <link href="https://plugins.jetbrains.com/slack/">JetBrains Platform Slack</link>
+        <link href="https://jb.gg/ipe">IntelliJ Platform Explorer</link>
+        <link href="https://plugins.jetbrains.com/plugin-ideas/">Plugin Ideas</link>
+    </footer>
+</buildprofiles>

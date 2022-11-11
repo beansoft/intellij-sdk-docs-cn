@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://helpserver.labs.jb.gg/help/schemas/mvp/html-entities.dtd">
+
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://helpserver.labs.jb.gg/help/schemas/mvp/topic.v2.xsd"
+       title="JetBrains 码上道：从零开始，开发插件"
+       id="home" help-id="tutorial-pdev">
+
+    <section-starting-page>
+        <title>JetBrains 码上道：从零开始，开发插件 - IntelliJ 插件开发实战</title>
+        <description>
+            本教程仅需要安装IDEA 2022.2.2版本.
+        </description>
+
+        <spotlight>
+            <a href="intellij_platform.md" type="academy" >IntelliJ 平台</a>
+            <a href="about.md" type="keyboard">关于SDK指南</a>
+        </spotlight>
+
+        <primary>
+            <title>快速上手指南</title>
+            <a href="plugin_required_experience.md" type="experiment">开发者所需经验</a>
+            <a href="types_of_plugins.md" type="cross-platform">插件类型</a>
+        </primary>
+
+        <!--        This block must be hold-->
+        <secondary>
+        </secondary>
+
+        <misc>
+            <cards narrow="true">
+                <title>实战演示</title>
+<!--                <a href="create_theme_plugin_project.md" type="presentation">创建主题插件并打包发布</a>-->
+                <a href="create_java_plugin_project.md" type="presentation">创建Java插件并打包验证发布</a>
+                <a href="internal_actions_intro.md" type="idea">IDEA 内部模式演示</a>
+            </cards>
+
+
+            <cards narrow="true">
+                <!--                <group>-->
+                <title>常见辅助技巧和插件(开源插件代码可辅助学习)</title>
+
+                <a href="https://beansoft.github.io/idea-docs/welcome.html" type="library" target="_blank">IntelliJ Platform SDK 开发指南中文文档</a>
+                <a href="https://jetbrains.design/intellij/" type="documents" target="_blank">JetBrains UI组件和图标列表</a>
+                <!--                <a href="https://lp.jetbrains.com/writerside/" type="documents" target="_blank">JetBrains 文档撰写工具Writerside(即将推出)</a>-->
+
+                <a href="https://plugins.jetbrains.com/intellij-platform-explorer/extensions" type="idea"
+                   summary="IntelliJ Platform Explorer 是一个搜索工具浏览扩展点列表和监听器列表, 并能直接跳转到开源的插件实现类中.">IntelliJ
+                    Platform Explorer</a>
+                <a href="https://plugins.jetbrains.com/plugin/227-psiviewer" type="community"
+                   summary="A Program Structure Interface (PSI) tree viewer. This plugin may be useful for developers who are considering using the PSI interface in their own plugins.">PSI
+                    Viewer</a>
+                <a href="https://plugins.jetbrains.com/plugin/13309-color-highlighter" type="community"
+                   summary="代码编辑器颜色高亮">Color Highlighter</a>
+                <a href="https://plugins.jetbrains.com/plugin/14985-plug-in-devkit-helper" type="community"
+                   summary="给插件开发所使用的IDEA Plugin DevKit提供一些辅助功能.
+当修改plugin.xml时,将description 和 change-notes 中的 CDATA 字符串内容解析为 HTML 语言, 这样就可以使用语法高亮和标签辅助以及分割修改HTML片段功能了.
+一键从plugin.xml中的action/extension引用类跳转到插件类代码(支持supports Java, Kotlin)以及反向跳转(从类跳转到xml中的引用).">Plug-in DevKit Helper</a>
+                <a href="https://github.com/picimako/devkit-plus" type="open-source"
+                   summary="提供代码生成器功能, 尚未上架插件市场">DevKit Plus</a>
+                <a href="https://github.com/JetBrains/IntelliJ-Log-Analyzer" type="open-source"
+                   summary="非插件, 独立运行, Utility to visualize logs of any JetBrains IDE">IntelliJ Log Analyzer</a>
+
+                <!--                </group>-->
+            </cards>
+
+            <links>
+                <group><title>相关链接</title>
+                    <a href="https://blog.jetbrains.com/zh-hans/blog/2022/09/21/jetbrains-plugin/"
+                       type="library" target="_blank">JetBrains 码上道：从零开始，开发插件</a>
+                    <a href="https://plugins.jetbrains.com/slack" type="library" target="_blank">
+                        JetBrains Platform Slack 社区(插件开发技术支持, 英文)</a>
+                    <a href="https://intellij-support.jetbrains.com/hc/en-us/community/topics/200366979-IntelliJ-IDEA-Open-API-and-Plugin-Development"
+                       type="library" target="_blank">IntelliJ IDEA Open API and Plugin Development 论坛(插件开发技术支持, 英文)</a>
+                    <a href="code_samples.md">IntelliJ 示例插件代码</a>
+                </group>
+            </links>
+        </misc>
+    </section-starting-page>
+</topic>
